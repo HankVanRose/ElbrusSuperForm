@@ -55,8 +55,8 @@ function setListeners(userCard) {
         document.querySelector('#name').value = userPrep.name
         document.querySelector('#secondName').value = userPrep.secondName
         document.querySelector('#email').value = userEmail
-        document.querySelector('#pets').value = userPrep.userPets
-        document.querySelector('#phone').value = userPrep.userPhone
+        document.querySelector('#pets').value = userPrep.pets
+        document.querySelector('#phone').value = userPrep.phone
         console.log(
             `%c Изменение пользователя ${userEmail} `,
             'background: green; color: white',
