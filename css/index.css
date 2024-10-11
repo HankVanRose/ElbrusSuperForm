@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(69, 32, 171, 1);
+    font-family: 'IBM Plex Mono';
+}
+
+.container {
+    margin: 0 20px;
+    
+}
+
+h1 {
+    color:rgba(255, 188, 91, 1);
+    text-align: center;
+    margin: 15px 0;
+    
+    
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+form {
+    color:rgba(255, 188, 91, 1);
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    letter-spacing: 1mm
+}
+
+input {
+    display: block;
+    height: 30px;
+    border-radius: 8px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    
+}
+
+input:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.btn:active {
+    transform: scale(0.99);
+}
+
+.btn {
+    background: none;
+    border: none;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.add {
+    outline: 1px solid green;
+    margin-bottom: 10px;
+    background-color: green;
+    color: azure;
+    font-size: 20px;
+}
+
+.clear {
+    outline: 1px solid red;
+    width: 50vw;
+    font-size: 20px;
+    color: azure;
+    background-color: red;
+}
+
+.mainUsers,
+.users {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #ffc802;
+     
+    
+}
+
+.users,
+.user {
+    width: 40vw;
+    
+     
+}
+
+.user {
+     
+    margin-bottom: 20px;
+    
+    border: 3px solid #ffc802;
+    
+}
+
+.user-outer {
+    display: flex;
+    justify-content: space-between;
+     
+    
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.delete,
+.change {
+    border: none;
+    height: 40%;
+    color: white;
+    padding: 0 10px;
+    border-radius: 10px;
+}
+
+.delete {
+    background: red;
+}
+
+.change {
+    background: green;
+}
+
+.delete:active,
+.change:active {
+    transform: scale(0.95);
+    
+}
+
+ p:not([class=email]) {
+        color: #ffc802d3;
+ }
+
+.email {
+    color: #ff0202;
+     
+    border-radius: 3px;
+}
